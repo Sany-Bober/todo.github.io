@@ -1,0 +1,179 @@
+body {
+    background-color: #FFFDD0; /* Кремовый фон */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #7D5B48; /* Темно-коричневый текст */
+    font-family: Arial, sans-serif;
+}
+
+section {
+    background-color: #B0C4B1; /* Светло-зеленый фон */
+    min-width: 80vw;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#one {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Main_h1 {
+    color: #7D5B48; /* Темно-коричневый текст */
+    background-color: #FFFDD0; /* Кремовый фон */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.span_top {
+    color: #7D5B48; /* Темно-коричневый текст */
+    display: block;
+    margin-bottom: 5px;
+}
+
+#top_left, #down_left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+#left_one_sec {
+    display: flex;
+    flex-direction: column;
+}
+
+#right_one_sec {
+    margin-right: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #9DC634; /* Темно-зеленый граница */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #7D5B48; /* Темно-коричневый граница */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #7D5B48; /* Темно-коричневый текст */
+    opacity: 0.6;
+}
+
+.orange-button {
+    background-color: #9DC634; /* Темно-зеленый фон */
+    border: none;
+    color: #FFFDD0; /* Кремовый текст */
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orange-button:hover {
+    background-color: #7D5B48; /* Темно-коричневый фон */
+    color: #FFFDD0; /* Кремовый текст */
+}
+
+.orange-button:active {
+    background-color: #FFFDD0; /* Кремовый фон */
+    color: #7D5B48; /* Темно-коричневый текст */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#tasks-section {
+    background-color: #FFFDD0; /* Кремовый фон */
+    border: 2px solid #7D5B48; /* Темно-коричневая граница */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#tasks-section h2 {
+    color: #7D5B48; /* Темно-коричневый текст */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#two {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_task {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #B0C4B1; /* Светло-зеленая граница */
+}
+
+.left_two_sec {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.spanDownOrange {
+    color: #9DC634; /* Темно-зеленый текст */
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.SpanDown {
+    color: #7D5B48; /* Темно-коричневый текст */
+}
+
+.white-button {
+    background-color: #9DC634; /* Темно-зеленый фон */
+    border: 2px solid #7D5B48; /* Темно-коричневая граница */
+    color: #7D5B48; /* Темно-коричневый текст */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.white-button:hover {
+    background-color: #7D5B48; /* Темно-коричневый фон */
+    color: #FFFDD0; /* Кремовый текст */
+}
+
+.white-button:active {
+    background-color: #FFFDD0; /* Кремовый фон */
+    color: #7D5B48; /* Темно-коричневый текст */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.right_two_sec {
+    margin-right: 20px;
+}
